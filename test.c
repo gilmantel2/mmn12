@@ -29,6 +29,7 @@ main() {
     failedTests += check (x, 8, 3, 1);
     failedTests += check (x, 8, 0, 0);
     failedTests += check (x, 4, 9, 0);
+    failedTests += check (x, 8, 8, 1);
 
     if(failedTests == 0)
         printf("ALL TESTS PASSED!\n");
