@@ -1,4 +1,4 @@
-#define N 11
+#define N 5
 #define FALSE 0
 #define TRUE 1
 
@@ -8,7 +8,7 @@ int path (adjmat x, int u, int v){
 
     int i;
 
-    if(u >= N || v >= N)
+    if(u >= N || v >= N || u < 0 || v<0)
         return FALSE;
     if(v==u)
         return TRUE;
